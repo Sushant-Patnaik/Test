@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Employee registration page</title>
+    <link rel="stylesheet" type="text/css" href="registrationCss.css">
+    <script src="registrationJscript.js"></script>
+
+</head>
+<body>
+    
+    <div class="formbox">
+    <form name="newAForm" method="post" onsubmit="return validate()">
+        <h1>Employee registration form</h1><br><br>
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>Employee Name :</td>
+                <td><input type="text" name="fname"  /></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>Male<input type="radio" name="gender" value="male"/>
+                Female<input type="radio" name="gender" value="female"/>
+                Other<input type="radio" name="gender" value="other"/></td>
+            </tr>
+            <tr>
+                <td>Hobbies :</td>
+                <td>Drawing:<input type="checkbox" name="draw" id="hobby" value="draw"/> &nbsp;&nbsp;
+                Reading:<input type="checkbox" name="Reading" id="hobby" value="Reading"/>&nbsp;&nbsp;
+                Gardening:<input type="checkbox" name="Gardening" id="hobby" value="Gardening"/><br>
+                Cooking:<input type="checkbox" name="Cooking" id="hobby" value="Cooking"/>&nbsp;&nbsp;
+                Video Games:<input type="checkbox" name="Video Games" id="hobby" value="Video Games"/></td>           
+            </tr>
+            <tr>
+                <td colspan="2" align="center"> 
+                    <input type="submit" value="Submit"/>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+    </div>
+
+</body>
+</html>

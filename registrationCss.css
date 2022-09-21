@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(background_sand-desert.jpg);
+    background-position: center;
+    background-size: 100% 100% 100%;
+    font-family: sans-serif;
+}
+.formbox{
+    width: 55%;
+    height: auto;
+    padding: 10px 30px;
+    background:rgba(54, 56, 224, 0.87);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: 2px solid navy;
+}
+.formbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+h1{
+    font-weight: bold;
+    color: #752906;
+    font-style: italic;
+    text-align: center;
+}
+.formbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 150px;
+    background:orange;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+.formbox input[type="submit"]:hover{
+    cursor: pointer;
+    background:rgb(46, 221, 11);
+    color:red;
+}
+.formbox input[type="submit"]:active{
+    cursor: pointer;
+    background:red;
+    width: 200px;
+    color:wheat;
+    font-size: 30px;
+    font-weight: bold;
+}

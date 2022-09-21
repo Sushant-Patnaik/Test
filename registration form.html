@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Employee registration page</title>
+        <link rel="stylesheet" href="RFstyle.css" type="text/css">
+        <script src="script3.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div class="Rigister">
+                <h1>Employee registration form</h1><br><br>
+                <form id="Register" method="post" method="post" onsubmit="return checkData()">
+                    <label>Employee Name:  </label>&#42;<br>
+
+                    <span id="fnwmsg" style="color: red;"> </span>
+                    <input type="text" name="Fname"id="name" placeholder="Enter your frist name">
+                    <br><br>
+                    <label>Select Gender: </label>&#42;<br>
+                    <input type="radio" name="gender">Male<br>
+                    <input type="radio" name="gender">Female<br>
+                    <input type="radio" name="gender">Other<br><br>
+
+                    <label>Select Hobbies: </label>&#42;<br>
+                    <br>
+                    Drawing:<input type="checkbox" name="draw" id="hobby" value="draw"/> &nbsp;&nbsp;
+                    Reading:<input type="checkbox" name="Reading" id="hobby" value="Reading"/>&nbsp;&nbsp;
+                    Gardening:<input type="checkbox" name="Gardening" id="hobby" value="Gardening"/><br>
+                    Cooking:<input type="checkbox" name="Cooking" id="hobby" value="Cooking"/>&nbsp;&nbsp;
+                    Video Games:<input type="checkbox" name="Video Games" id="hobby" value="Video Games"/>
+                    <br><br>
+
+                    <input type="submit" value="Submit" name="submit"  id="submit" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

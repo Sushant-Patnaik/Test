@@ -1,0 +1,60 @@
+
+body{
+    background: url("background_sand-desert.jpg");
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: 100% 100% 100%;
+    font-family: sans-serif;
+}
+div .main{
+    width: 400px;
+    margin: auto;
+}
+div.Rigister{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding: 70px 32px;
+    width: 400px;
+    
+    font-size: 15px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.9);
+    box-shadow:2px 2px 15px rgba(0, 0, 0, 0.3);
+    color:#fff;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding:7px;
+    background-color:#fff;
+    box-shadow:1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#submit{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    background:#ffa500;
+    font-size: 18px;
+    border-radius: 20px;
+}
+input#submit:hover{
+    cursor: pointer;
+    background:rgb(46, 221, 11);
+    color:red;
+}
+input#submit:active{
+    cursor: pointer;
+    background:red;
+    color:wheat;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: none;
+}
